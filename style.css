@@ -1,0 +1,62 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: url('https://img.freepik.com/premium-vector/cyber-security-concept-with-hud-element-blue-tone-background_99087-130.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-width: 320px;
+    max-width: 600px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    width: 35%;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
